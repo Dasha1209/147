@@ -1,0 +1,75 @@
+
+@font-face {
+	font-family: "Lobster";
+	src: url("../fonts/Lobster-Regular.woff2") format("woff2"), url("../fonts/Lobster-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff");
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Oswald";
+	src: url("../fonts/Oswald-Bold.woff2") format("woff2"), url("../fonts/Oswald-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+
+body{
+	background-color: cornsilk;
+
+}
+
+#top{
+	font-family: "Oswald", serif;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: underline;
+	color: indigo;
+	text-transform: uppercase;
+	line-height: 1.5;
+	letter-spacing: 3px;
+	text-shadow: 2px 1px lightblue;
+	padding: 7px;
+}
+
+h2.subtitle{
+	font-family: "Poppins";
+	font-weight: 600;
+	color: darkviolet;
+	line-height: 1.5;
+	padding: 7px;
+	text-shadow: 1px 1px lightblue;
+}
+
+p.text{
+	font-family: "Lobster";
+	font-weight: 400;
+	padding: 7px;
+	line-height: 1.1;
+	color: darkslategrey;
+	text-shadow: 2px 2px lightcyan;
+	letter-spacing: 1.5px;
+}
+.img{
+	padding: 10px;
+	margin: 20px;
+	border: 2px;
+}
+
+a{
+font-family: "Lobster";
+font-weight: 400;
+padding: 20px;
+margin: 10px;
+text-decoration: underline;
+color: brown;
+text-shadow: 2px 1px lightcoral;
+
+}
